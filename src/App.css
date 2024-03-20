@@ -1,0 +1,102 @@
+body{
+  min-height: 100vh;
+  
+
+}
+.nav-link:hover{
+  color: rgb(224, 4, 248) !important;
+}
+
+li{
+  font-size: 1.6rem;
+
+
+}
+ul{
+  padding-right: 30px;
+}
+.icon i{
+  font-size: 30px;
+  color: rgb(8, 1, 1);
+  padding: 15px;
+
+}
+.icon i:hover{
+  color: rgb(224, 4, 248) !important;
+}
+.icon{
+  padding-left: 20%;
+}
+.myskill{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
+.myskill .col-lg-4{
+  padding: 50px;
+}
+.myskill .card{
+  background: linear-gradient(rgb(224, 4, 248),white);
+  border: 2px;
+  color: white;
+  font-size: 1rem;
+}
+.flip-card-front{
+  position: relative;
+  top: 40px;
+ 
+}
+
+
+.flip-card-inner {
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ 
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+padding-bottom: 20%;
+font-size: 1.5rem;
+ 
+ 
+}
+
+.flip-card-front, .flip-card-back {
+
+  -webkit-backface-visibility: hidden;
+  backface-visibility:hidden;
+  
+  
+}
+
+
+
+.flip-card-back {
+
+  color: white;
+  transform: rotateY(180deg);
+
+}
+
+.sk-icons i{
+  font-size: 41px;
+  padding-left: 20px !important;
+  color: blue;
+}
+.skilsicon{
+  position: relative;
+  bottom: 40px;
+}
+
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+#maindiv{
+    min-height:0;
+  }
+  #img-home{
+    /* filter: drop-shadow(10px 10px 10px grey); */
+    position: relative;
+    right: 60%;
+  top: 10px;
+  
+  }
+  #st{
+    position: relative;
+  top: 48%;
+  right: 35%;
+  }
+  #name{
+    color: rgba(224, 4, 248, 0.75);
+  }
+ 
+  #arrow{
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: 30px;
+    color: black;
+}

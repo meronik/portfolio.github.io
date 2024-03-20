@@ -1,0 +1,22 @@
+.pro-cont{
+ display: flex;
+ flex-direction: row;
+ min-height: 100vh;
+    
+}
+.card{
+   padding: 40px 0px 40px 0 ;
+    margin: 1rem;
+    background-color: white;
+}
+i{
+    color: black;
+}
+
+
+@media screen and (max-width: 900px) {
+    .pro-cont{
+        display: flex;
+        flex-direction: column;
+    }
+  }
