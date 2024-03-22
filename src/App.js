@@ -29,15 +29,9 @@ function App() {
     }
   }
 
-  function myFunction() {
-    var x = document.getElementsByClassName("ic");
-    var y = document.getElementsByClassName("nav-item");
-    if (x.style.display === "none" && y.style.display === "none" ) {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  }
+ 
+
+  
 
 
   return (
@@ -75,7 +69,7 @@ function App() {
     {/* <Link to={{ pathname: "https://www.linkedin.com/in/meronika/" }} target="_blank">  <i class="bi bi-linkedin"></i></Link> */}
     <a className="ic" href="https://www.linkedin.com/in/meronika/" target="_blank" rel="noreferrer"> <i class="bi bi-linkedin"></i></a>
     <a className="ic" href="https://github.com/meronik" target="_blank" rel="noreferrer">  <i class="bi bi-github"></i></a>
-    <a href="javascript:void(0);" class="icon" onclick={myFunction}><i class="bi bi-list" id="list"></i></a>
+   <i class="bi bi-list" id="list"></i>
       
 
     </u1>
