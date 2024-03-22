@@ -1,5 +1,6 @@
 #maindiv{
     min-height:0;
+   
   }
   #img-home{
     /* filter: drop-shadow(10px 10px 10px grey); */
@@ -26,3 +27,24 @@
     top: 30px;
     color: black;
 }
+
+@media screen and (max-width: 992px) {
+  
+  ul{
+   padding: none;
+   
+  }
+  li a{
+   font-size: 1rem;
+  }
+  #img-home{
+  
+   position: relative;
+   right: 0;
+ top: 0;
+ 
+ }
+
+
+
+ }

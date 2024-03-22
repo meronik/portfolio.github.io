@@ -29,14 +29,35 @@ function App() {
     }
   }
 
+  function myFunction() {
+    var x = document.getElementsByClassName("ic");
+    var y = document.getElementsByClassName("nav-item");
+    if (x.style.display === "none" && y.style.display === "none" ) {
+      x.style.display = "block";
+    } else {
+      x.style.display = "none";
+    }
+  }
+
 
   return (
     
-   <div className='App' >
+   <div className='App area ' >
+   
+            <ul class="circles">
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+   
    
    {
     show1 && (
-    <nav className='navbar navbar-expand-lg   justify-content-end  '>
+    <nav className='navbar navbar-expand-lg   justify-content-end '>
     <ul className='navbar-nav'>
       <li className='nav-item'><Link to="/about" className='nav-link' onClick={hideHome} >ABOUT</Link></li>
     </ul>
@@ -52,8 +73,9 @@ function App() {
     <u1 className='icon' >
   
     {/* <Link to={{ pathname: "https://www.linkedin.com/in/meronika/" }} target="_blank">  <i class="bi bi-linkedin"></i></Link> */}
-    <a href="https://www.linkedin.com/in/meronika/" target="_blank" rel="noreferrer"> <i class="bi bi-linkedin"></i></a>
-    <a href="https://github.com/meronik" target="_blank" rel="noreferrer">  <i class="bi bi-github"></i></a>
+    <a className="ic" href="https://www.linkedin.com/in/meronika/" target="_blank" rel="noreferrer"> <i class="bi bi-linkedin"></i></a>
+    <a className="ic" href="https://github.com/meronik" target="_blank" rel="noreferrer">  <i class="bi bi-github"></i></a>
+    <a href="javascript:void(0);" class="icon" onclick={myFunction}><i class="bi bi-list" id="list"></i></a>
       
 
     </u1>
