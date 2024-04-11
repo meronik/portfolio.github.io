@@ -1,4 +1,6 @@
-
+*{
+  font-family: 'Times New Roman', Times, serif;
+}
 .nav-link:hover , .icon i:hover{
   color: #fff !important;
   background: linear-gradient(to left bottom,white,rgba(224, 4, 248, 0.55));
@@ -23,69 +25,40 @@ ul{
   padding: 15px;
 
 }
-/* .icon i:hover{
-  color: rgb(224, 4, 248) !important;
-} */
 
-.myskill{
+
+.myskill,.pro{
   background:linear-gradient(to left bottom,white,rgba(224, 4, 248, 0.55));
   min-height: 95vh;
+ 
+}
+
+
+
+.skill-card{
+  border: 2px solid black;
+  min-height: 80vh;
+  padding-top: 5rem;
+ padding-left: 20px;
+ padding-right: 20px;
+
+}
+.skill-card p{
+  font-size: 1.3rem;
+}
+.d{
   display: flex;
-  justify-content: center;
-  align-items: center;
- 
 }
-.myskill .col-lg-4{
-  padding: 50px;
-}
-.myskill .card{
-  background: linear-gradient(rgb(224, 4, 248),white);
-  border: 2px;
-  color: white;
-  font-size: 1rem;
-}
-.flip-card-front{
-  position: relative;
-  top: 40px;
- 
-}
-
-
-.flip-card-inner {
-  text-align: center;
-  transition: transform 0.6s;
-  transform-style: preserve-3d;
-  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
- 
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-padding-bottom: 20%;
-font-size: 1.5rem;
+@media screen and (max-width: 1000px){
+  .d{
+    display: block;
+  }
  
  
-}
-
-.flip-card-front, .flip-card-back {
-
-  -webkit-backface-visibility: hidden;
-  backface-visibility:hidden;
-  
-  
-}
-
-
-
-.flip-card-back {
-
-  color: white;
-  transform: rotateY(180deg);
-
 }
 
 .sk-icons i{
-  font-size: 41px;
+ 
   padding-left: 20px !important;
   color: blue;
 }
@@ -99,12 +72,18 @@ font-size: 1.5rem;
 }
 @media screen and (max-width: 560px){
 
-  #list{
+  /* #list{
     display: block;
   }
   .nav-item, .ic{
     display: none;
+  } */
+
+  .nav-item{
+    display:inline-flex ;
+
   }
+
 }
 
 
@@ -165,13 +144,13 @@ font-size: 1.5rem;
   left: 75%;
   width: 110px;
   height: 110px;
-  animation-delay: 3s;
+  animation-delay: 0s;
 }
 .circles li:nth-child(7){
   left: 35%;
   width: 150px;
   height: 150px;
-  animation-delay: 7s;
+  animation-delay: 0s;
 }
 
 

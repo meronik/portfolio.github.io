@@ -4,13 +4,9 @@
  min-height: 100vh;
     
 }
-.card{
-   padding: 40px 0px 40px 0 ;
-    margin: 1rem;
-    background-color: white;
-}
-i{
-    color: black;
+.ic{
+font-size: 40px;
+color: black;
 }
 
 

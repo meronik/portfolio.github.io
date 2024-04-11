@@ -2,62 +2,31 @@
 
 let Myskills=()=>{
     return(
-    <div className='container-fluid  text-center myskill'>
-        <div className="col-lg-12">
-        <h3>MY SKILLS</h3>
-        <div className="d-flex justify-content-center align-items-center">
-            <div className="col-lg-4 flip-card">
-            <div className="card flip-card-inner">
-                <div className="card-body flip-card-front">
-                    <p style={{fontSize:"1.5rem"}}>SKILLS</p>
-                </div>
-                <div className="card-body flip-card-back skilsicon">
-                    <p>Front End</p>
-                    <div className="sk-icons">
-                    <i class="bi bi-filetype-html"></i>
-                    <i class="bi bi-filetype-css"></i>
-                    <i class="bi bi-bootstrap"></i>
-                    <i class="bi bi-filetype-js"></i>
-                    {/* <ul className="li">
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>BOOSTRAP</li>
-                        <li>JavaScript</li>
-                    </ul> */}
-                    </div>
-                    <p>Back End</p>
-                    <div className="sk-icons">
-                    <i class="bi bi-filetype-java"></i>
-                    <i class="bi bi-filetype-sql"></i>
-
-                    </div>
-                </div>
-            </div>
-            </div>
-
-           <div className="col-lg-4 flip-card ">
-           <div className="card flip-card-inner">
-                <div className="card-body flip-card-front pt-5">
-                    <p style={{fontSize:"1.5rem"}}>COURSE</p>
-                </div>
-                <div className="card-body flip-card-back pt-5">
-                    <p>I have completed <span style={{color:"blue"}}>JAVA FULL STACK</span> course in besant technologies.Implementing various technologies including Java, 
-Spring Boot, HTML, CSS, JavaScript and MySQL to develop web applications</p>
-                </div>
-            </div>
-           </div>
-
-           <div className="col-lg-4 flip-card">
-           <div className="card flip-card-inner">
-                <div className="card-body flip-card-front pt-5">
-                    <p style={{fontSize:"1.5rem"}}>INTERNSHIP</p>
-                </div>
-                <div className="card-body flip-card-back pt-5">
-                    <p>I have hands on experience in web developement.I have completed my 6-month internship in DExTRASYS TECHNOLOGIES PRIVATE LIMITED.</p>
-                </div>
-            </div>
-           </div>
+    <div className='container-fluid  myskill'>
+        <h3 className="text-center">MY SKILLS</h3>
+        <div className=" d">
+        <div className="col-lg-1 "> </div>
+        <div className="col-lg-4 col-sm-12 skill-card">
+            <h1 className="text-center">Backend</h1>
+            <p>I enjoy writing a code and solving problems</p>
+            <h4><b>SKILLS</b></h4>
+            <p>Java,Spring,Spring Boot,Servlet,JSP,Spring MVC,MySQL</p>
+            <h4><b>TOOLS</b></h4>
+            <p>Eclipse,Postman,Docker,MySQL Workbench</p>
         </div>
+        <div className="col-lg-2 "> </div>
+        <div className="col-lg-4 col-sm-12  skill-card">
+            <h1 className="text-center " >Frontend</h1>
+            <p> I've worked on a variety of projects during my internship.
+                 I'm passionate about creating great user experiences and have a strong understanding of usability and accessibility standards.
+            </p>
+            <h4><b>SKILLS</b></h4>
+            <p>Html,CSS,Bootstrap,Javascript,ReactJS</p>
+            <h4><b>TOOLS</b></h4>
+            <p>VSCode,GitHub</p>
+        </div>
+        <div className="col-lg-1 "> </div>
+        
         </div>
     </div>
     );
